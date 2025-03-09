@@ -1,0 +1,3 @@
+Sputnik;500
+Voyager;720
+Hubble;1200
