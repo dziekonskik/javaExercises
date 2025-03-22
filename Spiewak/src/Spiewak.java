@@ -1,4 +1,4 @@
-public abstract class Spiewak {
+public abstract class Spiewak implements Comparable<Spiewak> {
     String name;
     static int counter = 0;
     int id;
@@ -16,8 +16,8 @@ public abstract class Spiewak {
         return "Spiewak name: " + name + " id: " + id;
     }
 
-    private static long countUppercase(String text) {
-        return text.chars().filter(Character::isUpperCase).count();
+    private static int countUppercase(String text) {
+        return (int) text.chars().filter(Character::isUpperCase).count();
     }
 
     static Spiewak najglosniej(Spiewak[] spiewakArr) {
@@ -31,5 +31,17 @@ public abstract class Spiewak {
             }
         }
         return loudestSpiewak;
+    }
+
+
+    @Override
+    public int compareTo(Spiewak o) {
+        int uppercaseDiff = countUppercase(this.spiewaj()) - countUppercase(o.spiewaj());
+        int namesDiff = this.name.compareTo(o.name);
+        if (uppercaseDiff == 0) {
+            if (namesDiff == 0) {
+                return this.id - o.id;
+            } else return namesDiff;
+        } else return uppercaseDiff;
     }
 }
