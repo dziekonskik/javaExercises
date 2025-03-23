@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Heroes/Heroes.iml" filepath="$PROJECT_DIR$/Heroes/Heroes.iml" />
       <module fileurl="file://$PROJECT_DIR$/IAnimalInterface/IAnimalInterface.iml" filepath="$PROJECT_DIR$/IAnimalInterface/IAnimalInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/IMovable/IMovable.iml" filepath="$PROJECT_DIR$/IMovable/IMovable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterNap/InterNap.iml" filepath="$PROJECT_DIR$/InterNap/InterNap.iml" />
       <module fileurl="file://$PROJECT_DIR$/KlasyWewnetrzne/KlasyWewnetrzne.iml" filepath="$PROJECT_DIR$/KlasyWewnetrzne/KlasyWewnetrzne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/Phones/Phones.iml" filepath="$PROJECT_DIR$/Phones/Phones.iml" />
