@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterNap/GenericContainer/GenericContainer.iml" filepath="$PROJECT_DIR$/InterNap/GenericContainer/GenericContainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heroes/Heroes.iml" filepath="$PROJECT_DIR$/Heroes/Heroes.iml" />
       <module fileurl="file://$PROJECT_DIR$/IAnimalInterface/IAnimalInterface.iml" filepath="$PROJECT_DIR$/IAnimalInterface/IAnimalInterface.iml" />
@@ -14,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Satelite/Satelite.iml" filepath="$PROJECT_DIR$/Satelite/Satelite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spiewak/Spiewak.iml" filepath="$PROJECT_DIR$/Spiewak/Spiewak.iml" />
       <module fileurl="file://$PROJECT_DIR$/SquareCompare/SquareCompare.iml" filepath="$PROJECT_DIR$/SquareCompare/SquareCompare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/cwiczenia.iml" filepath="$PROJECT_DIR$/cwiczenia.iml" />
       <module fileurl="file://$PROJECT_DIR$/reader/reader.iml" filepath="$PROJECT_DIR$/reader/reader.iml" />
       <module fileurl="file://$PROJECT_DIR$/reader/regex/regex.iml" filepath="$PROJECT_DIR$/reader/regex/regex.iml" />
